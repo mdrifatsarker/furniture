@@ -15,6 +15,17 @@ body {
 .text-slanted {
   font-family: "Calligraffitti", cursive;
 }
+.btn-yellow{
+  background: var(--mainYellow);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+  border-radius: 0!important;
+}
+.btn-yellow:hover{
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+}
 /* =============== Home Page =============== */
 /* navbar */
 .navbar-toggler{
@@ -49,4 +60,9 @@ body {
   background: var(--mainYellow);
   font-size: 0.7rem;
   border-radius: 50%;
+}
+/* banner */
+.banner{
+  min-height: calc(100vh - 101px);
+  background: url('../img/pageBcg/bannerBcg.jpeg')center/cover fixed no-repeat;
 }
