@@ -26,7 +26,9 @@ body {
   background: var(--mainBlack);
   color: var(--mainYellow);
 }
+/* ============================================= */
 /* =============== Home Page =============== */
+/* ============================================= */
 /* navbar */
 .navbar-toggler{
   outline: none !important;
@@ -39,7 +41,7 @@ body {
   border-bottom: 0.1rem solid var(--mainWhite);
 }
 .nav-active{
-  border-bottom: 0.1rem solid var(--mainYellow);
+  border-bottom: 0.5rem solid var(--mainYellow);
 }
 .navbar-icon{
   font-size: 1.6rem;
@@ -65,4 +67,48 @@ body {
 .banner{
   min-height: calc(100vh - 101px);
   background: url('../img/pageBcg/bannerBcg.jpeg')center/cover fixed no-repeat;
+}
+/* ============================================= */
+/*  ============= Featured Section ============== */
+/* ============================================= */
+.featured-container{
+  background: var(--TransGrey);
+  position: relative;
+  overflow: hidden;
+}
+.featured-search-icon{
+  background: var(--mainWhite);
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 1.2rem;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.featured-container:hover .featured-search-icon{
+  transform: translateX(0);
+}
+.featured-store-link{
+  background: var(--mainYellow);
+  color: var(--mainBlack);
+  position: absolute;
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+  right: 0;
+  top: 75%;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.featured-store-link:hover{
+  color: var(--mainBlack);
+}
+.featured-container:hover .featured-store-link{
+  transform: translateX(0%);
+}
+.old-price{
+  text-decoration: line-through;
 }
