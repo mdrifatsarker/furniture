@@ -112,3 +112,25 @@ body {
 .old-price{
   text-decoration: line-through;
 }
+/* ============================================= */
+/*  ============= Partners Section ============== */
+/* ============================================= */
+.partners{
+  background: var(--TransGrey);
+}
+.carousel-control-prev,
+.carousel-control-next{
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(-200%);
+}
+.carousel-control-next{
+  transform: translateX(200%);
+}
+/* ============================================= */
+/*  ============= Newsletter Section ============== */
+/* ============================================= */
+.form-icon{
+  background: var(--mainGrey);
+  color: var(--mainBlack);
+}
