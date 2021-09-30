@@ -29,6 +29,24 @@ body {
   background: var(--mainBlack);
   color: var(--mainYellow);
 }
+.banner-products,
+.banner-single-products,
+.banner-store {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../img/pageBcg/productsBcg.jpeg')center/cover fixed no-repeat;
+  min-height: 60vh;
+}
+.banner-single-products{
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+  url('../img/pageBcg/singleBcg.jpeg')center/cover fixed no-repeat;
+  min-height: 60vh;
+}
+.banner-store {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+  url('../img/pageBcg/storeBcg.jpeg')center/cover fixed no-repeat;
+  min-height: 60vh;
+}
+
 /* ============================================= */
 /* =============== Home Page =============== */
 /* ============================================= */
