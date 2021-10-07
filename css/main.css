@@ -90,6 +90,19 @@ body {
   background: url('../img/pageBcg/bannerBcg.jpeg')center/cover fixed no-repeat;
 }
 /* ============================================= */
+/*  ============= Services Section ============== */
+/* ============================================= */
+.services-icon{
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+}
+
+/* ============================================= */
 /*  ============= Featured Section ============== */
 /* ============================================= */
 .featured-container{
