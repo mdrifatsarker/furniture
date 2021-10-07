@@ -101,7 +101,50 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 50%;
 }
-
+/* ============================================= */
+/*  ============= Categories Section ============== */
+/* ============================================= */
+.categories-link{
+  color: var(--mainBlack);
+  text-decoration: none;
+}
+.categories-link:hover{
+  color: var(--mainGrey);
+  text-decoration: none;
+}
+.categories-underline{
+  height: 0.2rem;
+  width: 5rem;
+  background: var(--mainYellow);
+}
+.category-container {
+  position: relative;
+  overflow: hidden;
+}
+.category-img{
+  transition: all 1s linear;
+}
+.category-container:hover .category-img {
+  opacity: 0.5;
+}
+.category-link{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.2rem 1.5rem 0.2rem 0.2rem;
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  transition: all 1s linear;
+  transform: translate(100%,100%);
+  text-decoration: none !important;
+}
+.category-link:hover{
+  color: var(--mainGrey);
+}
+.category-container:hover .category-link{
+  transform: translate(0,0);
+}
 /* ============================================= */
 /*  ============= Featured Section ============== */
 /* ============================================= */
