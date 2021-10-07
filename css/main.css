@@ -146,6 +146,27 @@ body {
   transform: translate(0,0);
 }
 /* ============================================= */
+/*  ============= Home Filler Section ============== */
+.home-filler{
+  min-height: 60vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/home-filler.jpeg')center/cover fixed no-repeat;
+}
+.collection-link{
+  color: var(--mainYellow);
+  text-decoration: none !important;
+}
+.collection-link:hover{
+  color: var(--mainGrey);
+  text-decoration: none !important;
+}
+.collection-underline{
+  height: 0.2rem;
+  width: 5rem;
+  background: var(--mainYellow);
+  margin: 0 auto;
+}
+/* ============================================= */
+/* ============================================= */
 /*  ============= Featured Section ============== */
 /* ============================================= */
 .featured-container{
